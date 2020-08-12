@@ -1,0 +1,17 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --background-color: #fefefe;
+    --text-color: #333333;
+}
+
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
